@@ -14,7 +14,7 @@
   </p>
 </p> 
 
-<h3><p align="center">Version: 3.9 Beta</p></h3>
+<h3><p align="center">Version: 1 Beta</p></h3>
  
 <h2 align="center">📆  Features</h2>
 
