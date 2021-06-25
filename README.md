@@ -4,7 +4,7 @@
 
 <p align="center" ><img alt="Kiny-Painel" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png"></p>
 
-<h1 align="center">Kiny-Painel (BETA)</h1>
+<h1 align="center">Gød killer-Painel (BETA)</h1>
 <p align="center">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Kiny-Kiny/Kiny-Painel">
   <img alt="Latest version" src="https://img.shields.io/github/v/release/Kiny-Kiny/Kiny-Painel.svg" alt="Latest version">
@@ -57,28 +57,28 @@ Depois de baixar e instalar o python você pode baixar o **Kiny-Painel** diretam
 💻 Termux
 $ pkg upgrade && pkg update -y
 $ pkg install git python figlet -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel
-$ cd Kiny-Painel
+$ git clone https://github.com/gpdkiller182/gpdkiller182-Painel
+$ cd gpdkiller182-Painel
 $ python3 main.py
 
 💻 Debian
 $ apt upgrade && apt update -y
 $ apt install git python figlet -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel
-$ cd Kiny-Painel
+$ git clone https://github.com/gpdkiller182/gpdkiller182-Painel
+$ cd gpdkiller182-Painel
 $ python3 main.py
 
 💻Arch Linux
 $ pacman -Syyu git python figlet -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel
-$ cd Kiny-Painel
+$ git clone https://github.com/gpdkiller182/gpdkiller182-Painel
+$ cd gpdkiller182-Painel
 $ python3 main.py
 
 
 💻OpenSUSE
 $ zypper install python git figlet -y
-$ git clone https://github.com/Kiny-Kiny/Kiny-Painel
-$ cd Kiny-Painel
+$ git clone https://github.com/gpdkiller182/gpdkiller182-Painel
+$ cd gpdkiller182-Painel
 $ python3 main.py
 ```
 
