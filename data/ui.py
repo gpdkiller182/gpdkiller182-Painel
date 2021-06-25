@@ -2,7 +2,7 @@ import os,sys,time
 global R,B,C,Y,G,RT,CY,CO
 CO='\033[m';R='\033[1;31m';B='\033[1;34m';C='\033[1;37m';CY='\033[1;36m';Y='\033[1;33m';G='\033[1;32m';RT='\033[;0m'
 error=f'{C}[{R}ERROR{C}]';warning=f'{C}[{Y}!{C}]';info=f'{C}[{G}i{C}]'
-result = os.popen('figlet GØD KILLER').read()
+result = os.popen('figlet GOD KILLER').read()
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
