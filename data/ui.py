@@ -12,7 +12,7 @@ def banner():
 {result}
 -- P  A  I  N  E  L  F R E E  --
 {info} Recodado por GØD KILLER com a API Thanatos {info}
-{warning} Este painel foi disponibilizado gratuitamente. Se pagou por isso, foi enganado. {warning}
+{warning} Este painel foi disponibilizado free por 2 days. Lembre-se que toda hora o painel atualiza {warning}
        ''')
 
 def restart():
