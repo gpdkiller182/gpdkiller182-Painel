@@ -28,7 +28,7 @@
  
 <h2 align="center">📆  Features</h2>
 
-Todos os que estão marcados já se encontram presente no **Kiny-Painel** funcionando. 
+Todos os que estão marcados já se encontram presente no **gpdkiller182-Painel** funcionando. 
 Os que não estão, é porque ainda estão em desenvolvimento.
 
 - [x] Consulta de CEP
