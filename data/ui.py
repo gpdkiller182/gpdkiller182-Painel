@@ -10,7 +10,7 @@ def banner():
 	clear()
 	print(f'''
 {result}
--- P  A  I  N  E  L  F R E E  --
+-- P  A  I  N  E  L  V I P  --
 {info} Recodado por GØD KILLER com a API Thanatos {info}
 {warning} Este painel foi disponibilizado free por 2 days. Lembre-se que toda hora o painel atualiza {warning}
        ''')
