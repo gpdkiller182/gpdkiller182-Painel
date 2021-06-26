@@ -56,8 +56,6 @@ try:
     os.system("apt install figlet curl -y")
 except:
     os.system("pacman -Sy figlet curl")
-except:
-    pass
 
 if login == 1:
     tools.clear()
