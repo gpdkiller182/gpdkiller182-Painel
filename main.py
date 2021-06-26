@@ -57,24 +57,6 @@ try:
 except:
     os.system("pacman -Sy figlet curl")
 
-if login == 1:
-    tools.clear()
-    print(f'{C}{G}{result}{C}')
-    user = input(f"{C}[{G}+{C}]USERNAME:  ")
-    snh = 'VirtualInsanity'
-    if input(f"{C}[{G}+{C}]PASSWORD:  ").strip() == snh:
-        print(f"{C}[{G}*{C}] Acesso Liberado...")
-        time.sleep(1)
-        tools.clear()
-    else:
-        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
-        time.sleep(1)
-        os.system("python main.py")
-        if anim == 1:
-            time.sleep(1)
-        exit()
-    print("\n ")
-
 Sair = False
 while(Sair == False):
     try:
