@@ -50,7 +50,7 @@ if login == 1:
     else:
         print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
         time.sleep(1)
-        os.system("python main.py")
+        restart()
         if anim == 1:
             time.sleep(1)
         exit(pass)
