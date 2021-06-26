@@ -59,7 +59,10 @@ except:
 
 Sair = False
 while(Sair == False):
-    try:
+
+except:
+    pass
+
 if login == 1:
     tools.clear()
     print(f'{C}{G}{result}{C}')
@@ -70,6 +73,30 @@ if login == 1:
         time.sleep(1)
         tools.clear()
     else:
+        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
+        time.sleep(1)
+        os.system("python main.py")
+        if anim == 1:
+            time.sleep(1)
+        exit()
+    print("\n ")
+if user == 'YATO' or user == 'KINY':
+    kinymode=1
+    kiny=1
+    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada")
+else:
+    kinymode=0
+
+try:
+    os.system("pkg update -y")
+    os.system("pkg install figlet -y")
+    os.system("pkg install curl -y")
+except:
+    os.system("apt update -y")
+    os.system("apt install curl -y")
+
+Sair = False
+while(Sair == False):
         print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
         time.sleep(1)
         restart()
