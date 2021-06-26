@@ -36,8 +36,6 @@ def clear():
 requests = requests.Session();result = os.popen('figlet GOD KILLER').read()
 
 except:
-    pass
-
 if login == 1:
     tools.clear()
     print(f'{C}{G}{result}{C}')
