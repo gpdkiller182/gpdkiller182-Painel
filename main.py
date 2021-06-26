@@ -61,18 +61,6 @@ Sair = False
 while(Sair == False):
 
 try:
-    print(f'{C}{G}{result}{C}')
-    user = input(f"{C}[{G}+{C}]USERNAME:  ")
-    snh = 'VirtualInsanity'
-    if input(f"{C}[{G}+{C}]PASSWORD:  ").strip() == snh:
-        print(f"{C}[{G}*{C}] Acesso Liberado...")
-        time.sleep(1)
-        tools.clear()
-    else:
-        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
-        time.sleep(1)
-        os.system("python main.py")
-
         op = int(ui.menu(f'BUSCADOR DE CEP\nCONSULTAR IP\nCONSULTA DE CNPJ\nCONSULTA BANCARIA\nCONSULTA CPF {C}[{G}ON{C}]\nCONSULTA PLACA\nCONSULTA CRM\nCONSULTA DE NUMERO\nCONSULTA BIN\nGERAR PESSOA\nMOSTRAR MEU IP\nCOVID19\nCONSULTAR MÃE {C}[{R}ON{C}]\nCONSULTAR NOME {C}[{R}OFF{C}]\nCONSULTA DE EMAIL {C}[{R}OFF{C}]\nFERRAMENTAS::LICENSE\nAtualizar\nSair'))
     except:
         ui.error_dialog('Caracteres não reconhecidos');op=None
