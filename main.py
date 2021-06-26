@@ -61,9 +61,7 @@ Sair = False
 while(Sair == False):
 
 try:
-    pass
-
-if login == 1:
+    if login == 1:
     tools.clear()
     print(f'{C}{G}{result}{C}')
     user = input(f"{C}[{G}+{C}]USERNAME:  ")
