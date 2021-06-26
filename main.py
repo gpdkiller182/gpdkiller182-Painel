@@ -51,8 +51,6 @@ try:
         restart()
         if anim == 1:
             time.sleep(1)
-        exit(pass)
-    print("\n ")
 
 try:
     if __name__ == '__main__':
