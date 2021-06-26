@@ -72,22 +72,6 @@ try:
         print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
         time.sleep(1)
         os.system("python main.py")
-        if anim == 1:
-            time.sleep(1)
-        exit()
-    print("\n ")
-if user == 'YATO' or user == 'KINY':
-    kinymode=1
-    kiny=1
-    print(f"{C}[{Y}i{C}]Nova Opção Desbloqueada")
-else:
-    kinymode=0
-
-Sair = False
-while(Sair == False):
-        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
-        time.sleep(1)
-        restart()
 
         op = int(ui.menu(f'BUSCADOR DE CEP\nCONSULTAR IP\nCONSULTA DE CNPJ\nCONSULTA BANCARIA\nCONSULTA CPF {C}[{G}ON{C}]\nCONSULTA PLACA\nCONSULTA CRM\nCONSULTA DE NUMERO\nCONSULTA BIN\nGERAR PESSOA\nMOSTRAR MEU IP\nCOVID19\nCONSULTAR MÃE {C}[{R}ON{C}]\nCONSULTAR NOME {C}[{R}OFF{C}]\nCONSULTA DE EMAIL {C}[{R}OFF{C}]\nFERRAMENTAS::LICENSE\nAtualizar\nSair'))
     except:
