@@ -53,7 +53,7 @@ if login == 1:
         os.system("python main.py")
         if anim == 1:
             time.sleep(1)
-        exit()
+        exit(pass)
     print("\n ")
 
 try:
