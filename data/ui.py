@@ -11,8 +11,8 @@ def banner():
 	print(f'''
 {result}
 -- P  A  I  N  E  L  V I P  --
-{info} Recodado por GØD KILLER com a API Thanatos {info}
-{warning} Este painel foi disponibilizado free por 2 days. Lembre-se que toda hora o painel atualiza {warning}
+{info} Recodado por GØD KILLER {info}
+{warning} Este painel foi disponibilizado free por tempo ilimitado. Lembre-se que toda hora o painel atualiza {warning}
        ''')
 
 def restart():
