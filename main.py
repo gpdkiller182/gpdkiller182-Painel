@@ -60,7 +60,7 @@ except:
 Sair = False
 while(Sair == False):
 
-except:
+try:
     pass
 
 if login == 1:
