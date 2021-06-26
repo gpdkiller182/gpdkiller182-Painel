@@ -36,23 +36,6 @@ def clear():
 requests = requests.Session();result = os.popen('figlet GOD KILLER').read()
 
 try:
-   if login == 1:
-    tools.clear()
-    print(f'{C}{G}{result}{C}')
-    user = input(f"{C}[{G}+{C}]USERNAME:  ")
-    snh = 'VirtualInsanity'
-    if input(f"{C}[{G}+{C}]PASSWORD:  ").strip() == snh:
-        print(f"{C}[{G}*{C}] Acesso Liberado...")
-        time.sleep(1)
-        tools.clear()
-    else:
-        print(f"{C}[{R}ERROR{C}] Wrong Password....Yare Yare")
-        time.sleep(1)
-        restart()
-        if anim == 1:
-            time.sleep(1)
-
-try:
     if __name__ == '__main__':
         ui.dialog('Buscando atualizações ...')
         update = subprocess.check_output('git pull', shell=True)
